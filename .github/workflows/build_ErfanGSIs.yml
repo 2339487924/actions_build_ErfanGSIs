@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://bn.d.miui.com/9.9.26/miui_HMNote4X_9.9.26_41249b6d4d_7.0.zip
+  ROM_URL: https://bn.d.miui.com/9.10.10/miui_MI5X_9.10.10_a8e7c48b8e_8.1.zip
   ROM_NAME: MIUI
   BUILD_TYPE: ab
   TZ: Asia/Shanghai
@@ -61,7 +61,7 @@ jobs:
          run: |
               cd $GITHUB_WORKSPACE/ErfanGSIs/output
               curl -sL https://git.io/file-transfer | sh
-              ./transfer wet ./final/GSI.zip
+              ./transfer gof ./final/GSI.zip
 
          
             
